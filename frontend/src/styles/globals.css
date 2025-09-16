@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Variáveis globais */
+  :root {
+  --brand-primary: #ff6900;
+  --brand-gradient: linear-gradient(135deg,var(--brand-primary) 0%, #ff9f45 100%);
+  --brand-dark: #111827;
+}
+
+/* animação do degradê */
+@keyframes flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* versão laranja */
+.animate-gradient-orange {
+  color: white !important;
+  background: linear-gradient(270deg, #F97209, #ffb347, #F97209);
+  background-size: 600% 600%;
+  animation: flow 6s ease infinite;
+}
+
+/* versão azul */
+.bg-animated-blue {
+  color: white !important;
+  background: linear-gradient(270deg, #0000A3, #1a1aff, #0000A3);
+  background-size: 600% 600%;
+  animation: flow 6s ease infinite;
+}

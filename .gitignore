@@ -1,0 +1,52 @@
+# ======================
+# Python / Django
+# ======================
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sql
+*.bak
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+*.env
+
+# Django static/media
+staticfiles/
+media/
+
+# ======================
+# Node / React / Vite
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnp
+.pnp.js
+
+# Vite build output
+dist/
+
+# ======================
+# OS generated files
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+.history/
